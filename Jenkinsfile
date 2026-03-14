@@ -2,7 +2,7 @@ pipeline {
     agent any 
 
     stages {
-        stage('Git') {
+        stage('Git') { 
             steps {
                 git branch: 'main', url: 'https://github.com/RajCloudify/Terraform_CICD_Jenkins.git'
             }
